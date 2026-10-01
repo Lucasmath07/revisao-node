@@ -1,0 +1,21 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.12.5",
+    "postgres": "^3.4.9"
+  },
+  "optionalDependencies": {
+    "dotenv": "^18.0.5"
+  }
+}
